@@ -1,0 +1,23 @@
+{
+    "name": "xcwong/carpackage",
+    "description": "This is a demo package",
+    "license": "private",
+    "authors": [
+        {
+            "name": "Charlie",
+            "email": "sendme@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+      "psr-4":{
+        "XcWong\\Carpackage\\":"src/"
+      },
+      "files":[
+        "src/functions.php"
+      ]
+    },
+    "require": {
+        "illuminate/support":"~5"
+    }
+}
